@@ -1,0 +1,136 @@
+body{
+    background-color: #D3D5CB;
+}
+
+.container{
+    background-color: rgb(245, 240, 240);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    border-radius: 7px;
+}
+
+.container .header{
+    color: #1a73e8;
+    text-align: start;
+}
+
+.container .input {
+    /* background-color: blueviolet; */
+    padding: 10px 0;
+}
+/* .container .input input {
+    width: 90%;
+    outline: none;
+    border: 1px solid silver;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+} */
+
+/* .inputnormal{
+    width: 90%;
+    outline: none;
+    /* border: 1px solid silver; */
+    /* padding: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+} */ 
+
+.complited{
+    width: 90%;
+    outline: none;
+    /* background-color: #1c7af5; */
+    border: 1px solid silver ;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    transition: 0.3s linear;
+}
+
+.uncomplited{
+    width: 90%;
+    outline: none;
+    border: 1px solid  #d93025 ;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    transition: 0.3s linear;
+
+}
+
+.complited:focus,
+.uncomplited:focus{
+    border: 1px solid #1a73e8;
+    transition: 0.4s linear;
+
+}
+
+
+
+.container .input p{
+    text-align: start;
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+    color: #d93025;
+    /* background-color: #d3261a; */
+    width: fit-content;
+}
+
+.container form .input:nth-child(6) input {
+    width: fit-content;
+    margin-left:10px ;
+}
+
+.container .input input[type="checkbox"] {
+    /* for give style input type checkbox */
+    padding: auto;
+}  
+
+.container .input label{
+    display: block;
+    text-align: start;
+    margin-left: 10px;
+}
+
+.container div:nth-child(6) label{
+    display: inline;
+    /* text-align: center; */
+    /* width: fit-content; */
+}
+.container div:nth-child(6) p {
+    /* text-align: center; */
+    margin: auto;
+}
+
+.container .input .submit{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .input .submit a{
+    text-decoration: none;
+
+}
+
+.container .input .submit a:active{
+    color: #175bb3;
+}
+
+.container .input .submit button{
+    border: 1px solid silver;
+    padding: 8px 10px;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 7px;
+}
+
+.container .input .submit button:hover{
+    background-color: #175bb3;
+    cursor: pointer;
+}
